@@ -15,8 +15,22 @@ h1{color:grey;}
     text-align: center;
 }
 
+.row {
+    padding: 0 9px 10px 10px;
+}
+
+label {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+}
+
+input[list]{
+    display: inline-block;
+    width: 55%;
+}
+
 footer {
     text-align: right;
     width: 300px;
-    padding-top: 5px;
 }
