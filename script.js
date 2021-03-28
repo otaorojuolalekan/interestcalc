@@ -22,7 +22,7 @@ function compute() {
     //validate the amount to avoid negative value or zero
     function validate() {
         if (principal <= 0) {
-            alert("Ouch! Please enter a positive number");
+            alert("Ouch! Please enter a positive amount");
         }
         
         // focus back on the principal field
@@ -36,5 +36,3 @@ function range_val() {
     var rate_value = document.getElementById("rate").value;
     document.getElementById("rate_span").innerHTML = rate_value;
 }
-
-
